@@ -68,3 +68,8 @@ Tijdelijk placeholder voor slider
 	height: 100%;
 	margin: 0 auto 40px;
 }
+
+.slide1 img {
+	height: 50%;
+	width: 50%;
+}
