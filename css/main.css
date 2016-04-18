@@ -19,7 +19,7 @@ img {
 
 
 header {
-	background: #fffb00;
+	background: #fff;
 	float: left;
 	width: 100%;
 	margin: -20px 0 0 0;
@@ -60,7 +60,7 @@ Tijdelijk placeholder voor slider
 ***********************/
 .home-slider  {
 	width: 100%;
-	background: purple;
+	background: rgb(52, 152, 219);;
 	padding: 60px auto;
 	float: right;
 	text-align: center;
@@ -72,4 +72,11 @@ Tijdelijk placeholder voor slider
 .slide1 img {
 	height: 50%;
 	width: 50%;
+	float: left;
+}
+
+.slide1 h2 {
+	float: left;
+	text-align: center;
+	margin: 20px 0 20px 0;
 }
