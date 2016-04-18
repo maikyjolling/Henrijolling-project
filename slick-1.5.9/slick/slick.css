@@ -1,4 +1,7 @@
+
+
 /* Slider */
+
 .slick-slider
 {
     position: relative;
@@ -58,6 +61,7 @@
 
     display: block;
 }
+
 .slick-track:before,
 .slick-track:after
 {
@@ -65,6 +69,8 @@
 
     content: '';
 }
+
+
 .slick-track:after
 {
     clear: both;
