@@ -215,10 +215,6 @@ Forum tips
   color: #fff;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
 span::after {
   right: 100%;
   top: 50%;
@@ -226,22 +222,13 @@ span::after {
   content: " ";
   height: 0;
   width: 0;
-<<<<<<< HEAD
-
- }
-=======
 }
->>>>>>> origin/master
 
 .email-notificatie {
   border-radius: 5px;
   display: block;
   font-size: 1.3em;
   text-align: center;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
   position: absolute;
   background: #2F558E;
   left: 105%;
