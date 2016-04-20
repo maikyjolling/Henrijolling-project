@@ -126,10 +126,11 @@ Slider
     }
 }
 
+
 /******************************
 Forum tips
 ******************************/
-span {
+.naam-notificatie {
   border-radius: 5px;
   display: block;
   font-size: 1.3em;
@@ -143,6 +144,7 @@ span {
   color: #fff;
 }
 
+<<<<<<< HEAD
 span::after {
   right: 100%;
   top: 50%;
@@ -150,13 +152,23 @@ span::after {
   content: " ";
   height: 0;
   width: 0;
+=======
+.email-notificatie {
+  border-radius: 5px;
+  display: block;
+  font-size: 1.3em;
+  text-align: center;
+>>>>>>> origin/master
   position: absolute;
-  pointer-events: none;
-  border-color: rgba(136, 183, 213, 0);
-  border-right-color: #2F558E;
-  border-width: 8px;
-  margin-top: -8px;
+  background: #2F558E;
+  left: 105%;
+  top: 126px;
+  width: 160px;
+  padding: 7px 10px;
+  color: #fff;
+
 }
+
 
 
 
@@ -226,15 +238,16 @@ Contact-form
 }
 
 /* Icons ---------------------------------- */
+
 #name{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-image: url(../img/name.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #name:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-image: url(../img/name.svg);
 	background-size: 30px 30px;
 	background-position: 8px 5px;
   background-position: 11px 8px;
@@ -242,21 +255,21 @@ Contact-form
 }
 
 #email{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-image: url(../img/email.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #email:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-image: url(../img/email.svg);
 	background-size: 30px 30px;
   background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #comment{
-	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-image: url(../img/comment.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
@@ -327,6 +340,8 @@ input:focus, textarea:focus {
 		padding-right: 3%;
 	}
 }
+
+
 
 /******************************
 Footer
