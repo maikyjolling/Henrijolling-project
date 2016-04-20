@@ -60,9 +60,19 @@ nav a:hover {
 /******************************
 Class-styling
 *******************************/
+
+.background-heading1 {
+	background: rgb(52, 152, 219); 
+	margin: 40px 0 0 0;							
+									
+	border-radius: 9%;
+	float: left;
+}
+
 /**********************
-Tijdelijk placeholder voor slider
+Slider
 ***********************/
+ 
 .home-slider  {
 	width: 100%;
 	background: rgb(52, 152, 219);
@@ -115,19 +125,9 @@ Tijdelijk placeholder voor slider
     }
 }
 
-/**********************************
-BUG!!
-**********************************/
-.background-heading1 {
-	background: rgb(52, 152, 219); 
-	margin: 40px 0 0 0;							
-									
-	border-radius: 9%;
-	float: left;
-}
-/**********************************
-BUG!!
-**********************************/
+
+
+
 
 
 /******************************
@@ -297,3 +297,7 @@ input:focus, textarea:focus {
 		padding-right: 3%;
 	}
 }
+
+/******************************
+Footer
+*******************************/
