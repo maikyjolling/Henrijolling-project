@@ -2,6 +2,10 @@
 General
 *******************************/
 
+body {
+
+	
+}
 
 h1 {
 	font-family: 'Roboto Condensed', sans-serif;;
@@ -48,8 +52,23 @@ nav ul li{
 	color: purple;
 }
 
+
+nav a {
+	color: white;
+	background: rgb(52, 152, 219);
+	padding: 10px 10px 10px 10px;
+	border-radius: 10%;
+	list-style: none;
+	text-decoration: none;
+}
+
 nav a:hover {
-	color: #fff;
+	color: white;
+	background: rgb(52, 152, 219);
+	padding: 10px 10px 10px 10px;
+	border-radius: 10%;
+	list-style: none;
+	text-decoration: none;
 }
 
 
@@ -61,16 +80,23 @@ Class-styling
 	background: rgb(52, 152, 219); 
 	margin: 40px 0 0 0;							
 									
-	border-radius: 2%;
+	border-radius: 0%;
 	padding: 10px 10px 10px 10px;
-	float: left;
+	
 	margin: 50px 5px 5px 60px;
 }
 
 .background-heading1 p {
-	clear: both;
+	
 	margin: 50px 5px 5px 60px;
+
 }
+
+.left {
+	float: left;
+}
+
+
 
 /**********************
 Slider
@@ -132,6 +158,12 @@ Slider
 BLOG - VIDEOS
 ******************************/
 
+.video {
+
+	width: 100%;
+	
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -146,6 +178,23 @@ BLOG - VIDEOS
     left: 0;
     width: 50%;
     height: 50%;
+    margin: 5px 5px 5px 60px;
+}
+
+.video-container-right {
+    
+    height: 900px;
+    margin: 0 0 0 50px;
+}
+
+.video-container-right iframe,
+.video-container-right object,
+.video-container-right embed {
+    float: right;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
     margin: 5px 5px 5px 60px;
 }
 
@@ -166,7 +215,7 @@ Forum tips
   color: #fff;
 }
 
-<<<<<<< HEAD
+
 span::after {
   right: 100%;
   top: 50%;
@@ -174,13 +223,15 @@ span::after {
   content: " ";
   height: 0;
   width: 0;
-=======
+
+ }
+
 .email-notificatie {
   border-radius: 5px;
   display: block;
   font-size: 1.3em;
   text-align: center;
->>>>>>> origin/master
+
   position: absolute;
   background: #2F558E;
   left: 105%;
