@@ -72,7 +72,7 @@ Class-styling
 /**********************
 Slider
 ***********************/
- 
+
 .home-slider  {
 	width: 100%;
 	background: rgb(52, 152, 219);
@@ -301,3 +301,8 @@ input:focus, textarea:focus {
 /******************************
 Footer
 *******************************/
+
+footer {
+	clear: both;
+
+}
