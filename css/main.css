@@ -68,6 +68,16 @@ Tijdelijk placeholder voor slider
 	margin: 0 auto 60px;
 }
 
+/* Slider button style */
+.slick-dots li button::before {
+	font-size: 10px;
+}
+
+.slick-dots {
+	bottom: 2px;
+}
+
+/*Slider content*/
 .slide1 img {
 	height: 50%;
 	width: 50%;
