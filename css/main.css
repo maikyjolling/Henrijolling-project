@@ -2,10 +2,6 @@
 General
 *******************************/
 
-body {
-
-	margin: 500px 0 0 0;
-}
 
 h1 {
 	font-family: 'Roboto Condensed', sans-serif;;
@@ -61,12 +57,17 @@ nav a:hover {
 Class-styling
 *******************************/
 
-.background-heading1 {
+.background-heading1 h1 {
 	background: rgb(52, 152, 219); 
 	margin: 40px 0 0 0;							
 									
 	border-radius: 9%;
 	float: left;
+}
+
+.background-heading1 p {
+	clear: both;
+
 }
 
 /**********************
