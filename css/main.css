@@ -2,6 +2,11 @@
 General
 *******************************/
 
+body {
+
+	margin: 500px 0 0 0;
+}
+
 h1 {
 	font-family: 'Roboto Condensed', sans-serif;;
 	font-size: 1,5em;
@@ -114,9 +119,9 @@ Tijdelijk placeholder voor slider
 BUG!!
 **********************************/
 .background-heading1 {
-	background: rgb(52, 152, 219); /**********************************
-									BUG!!
-									**********************************/
+	background: rgb(52, 152, 219); 
+	margin: 40px 0 0 0;							
+									
 	border-radius: 9%;
 	float: left;
 }
